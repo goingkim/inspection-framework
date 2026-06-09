@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Local environment and auth material
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+
+# Local runtime output
+logs/
+*.log
+
+# Models, exports, and datasets
+*.pt
+*.onnx
+*.engine
+*.pth
+*.safetensors
+runs/
+datasets/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local third-party binaries. Download cam2ip separately when running the demo.
+cam2ip-1.4/
