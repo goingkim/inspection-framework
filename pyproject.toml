@@ -1,7 +1,7 @@
 [project]
 name = "inspection-framework"
 version = "0.1.0"
-description = "Educational webcam object detection backend using cam2ip, Flask, and YOLO11n."
+description = "Starter webcam object detection backend using cam2ip, Flask, and YOLO11n."
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [

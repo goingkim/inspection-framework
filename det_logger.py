@@ -13,7 +13,7 @@ except ImportError:
 
 
 class DetLogger:
-    """Small file logger for the educational demo."""
+    """Small file logger for the starter demo."""
 
     def __init__(self, log_dir: Path = LOG_DIR):
         self.log_dir = Path(log_dir)

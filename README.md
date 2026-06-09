@@ -1,6 +1,6 @@
 # inspection-framework
 
-Educational webcam object-detection demo built with Flask, cam2ip, and YOLO11n.
+Starter webcam object-detection framework built with Flask, cam2ip, and YOLO11n.
 
 The app starts a local webcam MJPEG server with `cam2ip`, runs YOLO inference in a Python worker, and streams annotated frames back to a browser. It is intentionally small so the runtime flow is easy to inspect, test, and modify.
 
@@ -190,7 +190,7 @@ The tests validate public-safe structure and API behavior without requiring a re
 
 ## Public Repository Notes
 
-This repository is prepared for public sharing as an educational demo. The following are intentionally not committed:
+This repository is prepared for public sharing as a compact starter framework. The following are intentionally not committed:
 
 - Local virtual environments and Python caches
 - IDE settings
